@@ -1,0 +1,35 @@
+// This is where you can import other stylesheets or write your scss code
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Poppins:wght@300&display=swap');
+
+
+$headings-font-family:'Love Ya Like a Sister',cursive;
+$font-family-base:'Poppins',sans-serif;
+$dark: black;
+$primary:#7a44fe;
+$enable-responsive-font-sizes:true;
+$enable-rounded:false;
+.hero{
+    background-image: url(../images/lidye-1Shk_PkNkNw-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:bottom;
+    height:70vh;
+}
+
+.icon{
+    height:5.3rem;
+    width:5.3rem;
+
+    &img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+
+    }
+}
+
+.scrollable-container{
+    overflow: hidden;
+}
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
